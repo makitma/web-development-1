@@ -1,4 +1,4 @@
-# Exercise 1 – HTML Basics
+#Exercise 1 – HTML Basics
 
 Create a simple webpage about your favourite animal.
 
@@ -9,6 +9,6 @@ Your page should have:
     🖼️ A picture of your favourite animal
     🔗 A link to learn more about it
 
-Submission
+Submission:
 
 Push your work to GitHub and submit your repository link in Canvas.
