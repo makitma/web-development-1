@@ -1,4 +1,4 @@
-Exercise 1 – HTML Basics
+# Exercise 1 – HTML Basics
 
 Create a simple webpage about your favourite animal.
 
