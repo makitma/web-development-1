@@ -1,40 +1,41 @@
-// STEP 1: Print text to the browser console is string ""
+// Exercise 1 – Developer Tools and Console
+console.log("Hello World!");
+alert("Hello World!");
 
-console.log("Hello, World!");
+// Exercise 2 – Variables
+const name = "Markus";
+let age = 28;
+const favouriteAnimal = "Dog";
 
-// STEP 2: Variables
+console.log(name);
+console.log(age);
+console.log(favouriteAnimal);
 
-// Store text values in variables
+const sentence = "My name is " + name + " and I am " + age + " years old. My favourite animal is a " + favouriteAnimal + ".";
+console.log(sentence);
 
-const userName = "Juho";
-const favoriteAnimal = "Blue Elephant";
+// Exercise 3 – User Input
+const userName = prompt("What is your name?");
+console.log("Hello, " + userName + "!");
 
+// Exercise 4 – Conditionals
+const userAge = prompt("How old are you?");
+if (userAge >= 18) {
+    console.log("You are an adult.");
+} else {
+    console.log("You are under 18.");
+}
 
-// Print the variables to the console
-console.log("My name is " + userName);
-console.log("My favorite animal is " + favoriteAnimal);
-// STEP 3: User interaction
-// Display a pop-up message
-alert("tervertetuloa hieoulle nettisivylleni!");
+// Exercise 5 – Functions
+function greetUser(name) {
+    console.log("Hello, " + name + "!");
+}
+greetUser("Markus");
+greetUser("Juha");
 
-// Ask the user for their name
+// Exercise 6 – Button – Connect JavaScript to the Page
+const button = document.getElementById("Button1");
 
-const visitorName = prompt("Mikä on nimesi?");
-
-// Print the user's answer
-console.log(visitorName);
-
-console.log("Terve " + visitorName + "! Tervetuloa javasciptimn psariin!");
-// Ask the user for their favorite animal
-
-const visitorFavoriteAnimal = prompt("Mikä on lempieläimesi?");
-
-// Create a sentence using both answers
-
-console.log("Hello, " + visitorName + "! Your favorite animal is " + visitorFavoriteAnimal + ".");
-
-// ⭐⭐ BONUS Ask the user for their favorite animal.If their favorite animal is "Blue Elephant", print: Great choice! That's my favorite animal too!
-// ⭐⭐ BONUS Otherwise, print: Nice! Your favorite animal is [animal]. Can you figure out how to do this using if / else?
-
-// const visitorFavoriteAnimal = prompt("What is your favorite animal?");
-
+button.addEventListener("click", function() {
+    alert("Homework done!");
+});
